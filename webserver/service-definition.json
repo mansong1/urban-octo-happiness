@@ -1,0 +1,6 @@
+{
+    "placementConstraints": [],
+    "placementStrategy": [],
+    "healthCheckGracePeriodSeconds": 0,
+    "schedulingStrategy": "REPLICA"
+}
