@@ -27,6 +27,8 @@ pipeline:
                   type: EcsRollingDeploy
                   timeout: 10m
                   spec: {}
+                  sameAsAlreadyRunningInstances: true
+                  forceNewDeployment: true
             rollbackSteps:
               - step:
                   name: ECS Rolling Rollback
