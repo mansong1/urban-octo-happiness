@@ -9,7 +9,7 @@ containerDefinitions:
       - sh
       - "-c"
     essential: true
-    image: httpd:2.4
+    image: <+artifact.image>
     logConfiguration:
       logDriver: awslogs
       options:
